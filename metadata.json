@@ -1,0 +1,6 @@
+{
+  "name": "Vitannis Senior Care",
+  "description": "Vitannis Senior Care Funding provides specialized Immediate Care Plan (ICP) Annuities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
