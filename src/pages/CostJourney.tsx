@@ -124,7 +124,7 @@ export default function CostJourneyPage() {
               </div>
               <div className="pt-4 mb-10 text-center">
                 <h3 className="font-heading text-sm font-bold tracking-widest text-red-500 uppercase mb-2">The Final Stage</h3>
-                <h4 className="font-heading text-3xl md:text-4xl font-bold text-brand-dark mb-4">Two Devastating Paths</h4>
+                <h4 className="font-heading text-3xl md:text-4xl font-bold text-brand-dark mb-4">Two Difficult Paths</h4>
                 <p className="text-gray-600 text-lg leading-relaxed max-w-3xl mx-auto">
                   Depending on a family's total accumulated wealth, the final stage of self-funding typically results in one of two deeply painful outcomes.
                 </p>

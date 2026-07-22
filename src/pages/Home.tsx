@@ -16,8 +16,8 @@ export default function HomePage() {
             <h1 className="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
               Guarantee Long-Term Care Funding <span className="gradient-text">For Life.</span>
             </h1>
-            <p className="text-lg sm:text-xl text-gray-300 mb-10 leading-relaxed font-light max-w-2xl">
-              Minimize long-term care expenses with a specialized Immediate Care Plan (ICP).
+            <p className="text-xl sm:text-2xl text-gray-300 mb-10 leading-relaxed font-semibold max-w-2xl">
+              Minimize long-term care expenses with<br />the Immediate Care Plan (ICP).
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link to="/cost-journey" className="flex items-center justify-center px-8 py-4 text-base font-medium rounded-sm text-brand-dark bg-brand-accent hover:bg-white transition-all shadow-lg shadow-brand-accent/20">
@@ -140,16 +140,16 @@ export default function HomePage() {
               <div className="flex flex-col md:flex-row justify-between items-start md:items-center border-b border-gray-100 pb-6 mb-8 gap-4">
                 <div>
                   <h3 className="font-heading text-3xl font-bold text-brand-dark mb-2">George, Age 82</h3>
-                  <p className="text-gray-500 font-medium text-sm md:text-base">Assisted Living Facility • <strong className="text-brand-dark">$350,000</strong> in Total Savings</p>
+                  <p className="text-gray-500 font-medium text-sm md:text-base">Assisted Living Facility • <strong className="text-brand-dark">$55,000</strong> Annual Out of Pocket Cost</p>
                 </div>
-                <div className="bg-red-50 text-red-600 px-4 py-2 rounded-lg font-bold border border-red-100 text-sm whitespace-nowrap">
-                  Annual Out of Pocket Cost: $45,000
+                <div className="bg-brand-surface text-brand-dark px-4 py-2 rounded-lg font-bold border border-gray-200 text-sm whitespace-nowrap">
+                  $305,000 in Total Savings
                 </div>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
                 <div className="bg-gray-50 rounded-2xl p-6 border border-gray-200 text-center flex flex-col justify-center">
                   <p className="text-xs text-gray-500 font-bold uppercase tracking-wider mb-3">Projected 5-Year Cost</p>
-                  <p className="text-3xl font-heading font-bold text-red-500 mb-2">$225,000</p>
+                  <p className="text-3xl font-heading font-bold text-red-500 mb-2">$275,000</p>
                   <p className="text-xs text-gray-400">Paying Out-of-Pocket</p>
                 </div>
                 <div className="bg-brand-dark rounded-2xl p-6 border border-brand-accent/30 text-center text-white shadow-xl transform md:-translate-y-2 relative flex flex-col justify-center">
@@ -160,13 +160,13 @@ export default function HomePage() {
                 </div>
                 <div className="bg-green-50 rounded-2xl p-6 border border-green-200 text-center flex flex-col justify-center">
                   <p className="text-xs text-green-700 font-bold uppercase tracking-wider mb-3">Legacy Preserved</p>
-                  <p className="text-3xl font-heading font-bold text-green-600 mb-2">$103,725</p>
+                  <p className="text-3xl font-heading font-bold text-green-600 mb-2">$153,725</p>
                   <p className="text-xs text-green-600/70">Saved over 5 Years</p>
                 </div>
               </div>
               <div className="text-center max-w-3xl mx-auto bg-brand-surface p-5 rounded-xl border border-gray-200">
                 <p className="text-gray-700 font-medium text-sm md:text-base leading-relaxed">
-                  Instead of draining $225,000 from his savings over 5 years, George paid a single premium of <strong className="text-brand-dark">$121,275</strong>. His care is now guaranteed for life, and his remaining <strong className="text-brand-accent">$228,725</strong> is completely protected for his grandchildren.
+                  Instead of draining $275,000 from his savings over 5 years, George paid a single premium of <strong className="text-brand-dark">$121,275</strong>. His care expenses are guaranteed for life, and his remaining <strong className="text-brand-accent">$183,725</strong> is completely protected for his grandchildren.
                 </p>
               </div>
             </div>
