@@ -1,7 +1,18 @@
+import { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
-import { Phone, MapPin, Send } from 'lucide-react';
+import { Phone, MapPin, Send, Mail } from 'lucide-react';
 
 export default function ContactPage() {
+  const [phone, setPhone] = useState('');
+  const [email, setEmail] = useState('');
+
+  useEffect(() => {
+    // Obfuscate phone number to prevent scraping
+    setPhone(atob('ODQzLTYyOC02MzM2'));
+    // Obfuscate email to prevent scraping
+    setEmail(atob('aW5mb0B2aXRhbm5pcy5jb20='));
+  }, []);
+
   return (
     <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.4 }}>
       {/* Header */}
@@ -32,7 +43,24 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <p className="text-xs text-gray-400 uppercase tracking-wider">Call Us Direct</p>
-                      <p className="font-bold text-lg">(843) 408-9653</p>
+                      <p className="font-bold text-lg">
+                        <a href={`tel:${phone}`} className="hover:text-brand-accent transition-colors">
+                          {phone || 'Loading...'}
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-center">
+                    <div className="bg-brand-light p-3 rounded-full mr-4">
+                      <Mail className="h-5 w-5 text-brand-accent" />
+                    </div>
+                    <div>
+                      <p className="text-xs text-gray-400 uppercase tracking-wider">Email Us</p>
+                      <p className="font-bold text-sm">
+                        <a href={`mailto:${email}`} className="hover:text-brand-accent transition-colors">
+                          {email || 'Loading...'}
+                        </a>
+                      </p>
                     </div>
                   </div>
                   <div className="flex items-center">
