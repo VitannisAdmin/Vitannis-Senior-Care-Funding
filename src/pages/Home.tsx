@@ -11,14 +11,14 @@ export default function HomePage() {
           <div className="max-w-3xl">
             <div className="inline-flex items-center px-4 py-2 rounded-full bg-white/10 border border-white/20 backdrop-blur-sm mb-6">
               <span className="flex h-2 w-2 rounded-full bg-brand-accent mr-3"></span>
-              <span className="text-xs font-semibold tracking-wider text-white uppercase">Tailored for families self-funding care</span>
+              <span className="text-xs font-semibold tracking-wider text-white uppercase">For families self-funding LTC</span>
             </div>
             <h1 className="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
-              Guarantee Long-Term Care Funding <span className="gradient-text">For Life.</span>
+              The Immediate Care Plan Solution
             </h1>
-            <p className="text-xl sm:text-2xl text-gray-300 mb-10 leading-relaxed font-semibold max-w-2xl">
-              Minimize long-term care expenses with<br />the Immediate Care Plan (ICP).
-            </p>
+            <h2 className="text-xl sm:text-2xl text-gray-300 mb-10 leading-relaxed font-semibold max-w-2xl">
+              Reduce long-term care expenses with<br />the Immediate Care Plan (ICP).
+            </h2>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link to="/cost-journey" className="flex items-center justify-center px-8 py-4 text-base font-medium rounded-sm text-brand-dark bg-brand-accent hover:bg-white transition-all shadow-lg shadow-brand-accent/20">
                 The Cost Journey
@@ -36,28 +36,29 @@ export default function HomePage() {
       <section className="bg-brand-dark py-10 md:py-14 relative z-20 border-b border-white/5 shadow-corporate">
         <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-brand-accent to-yellow-200"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col md:flex-row justify-center items-start md:items-center gap-8 md:gap-10 lg:gap-16">
-            <div className="flex items-center">
+          <h2 className="text-center font-heading text-2xl md:text-3xl font-bold text-white mb-8 md:mb-10">How the Immediate Care Plan Works</h2>
+          <ul className="flex flex-col md:flex-row justify-center items-start md:items-center gap-8 md:gap-10 lg:gap-16">
+            <li className="flex items-center">
               <CheckCircle className="h-7 w-7 text-brand-accent mr-4 flex-shrink-0" />
-              <h2 className="font-heading text-xl md:text-2xl font-bold text-white">
-                Secure <span className="text-brand-accent">lifetime funding</span>
-              </h2>
-            </div>
-            <div className="hidden md:block w-px h-12 bg-white/10"></div>
-            <div className="flex items-center">
+              <p className="font-heading text-xl md:text-2xl font-bold text-white">
+                Secures <span className="text-brand-accent">lifetime LTC funding</span> with a single transaction
+              </p>
+            </li>
+            <li className="hidden md:block w-px h-12 bg-white/10" aria-hidden="true" role="presentation"></li>
+            <li className="flex items-center">
               <CheckCircle className="h-7 w-7 text-brand-accent mr-4 flex-shrink-0" />
-              <h2 className="font-heading text-xl md:text-2xl font-bold text-white">
-                Dramatically lower <span className="text-brand-accent">costs</span>
-              </h2>
-            </div>
-            <div className="hidden md:block w-px h-12 bg-white/10"></div>
-            <div className="flex items-center">
+              <p className="font-heading text-xl md:text-2xl font-bold text-white">
+                Dramatically lowers <span className="text-brand-accent">Care Costs</span>
+              </p>
+            </li>
+            <li className="hidden md:block w-px h-12 bg-white/10" aria-hidden="true" role="presentation"></li>
+            <li className="flex items-center">
               <CheckCircle className="h-7 w-7 text-brand-accent mr-4 flex-shrink-0" />
-              <h2 className="font-heading text-xl md:text-2xl font-bold text-white">
-                Preserve your <span className="text-brand-accent">legacy</span>
-              </h2>
-            </div>
-          </div>
+              <p className="font-heading text-xl md:text-2xl font-bold text-white">
+                Preserves your <span className="text-brand-accent">legacy</span>
+              </p>
+            </li>
+          </ul>
         </div>
       </section>
 
@@ -65,13 +66,13 @@ export default function HomePage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="font-heading text-3xl md:text-4xl font-bold text-brand-dark mb-6">The Smart Way to Fund Care</h2>
-            <p className="text-gray-600 text-lg">We provide specialized, turn-key solutions designed specifically for those currently receiving, or imminently requiring, Long-Term Care services.</p>
+            <h2 className="font-heading text-3xl md:text-4xl font-bold text-brand-dark mb-6">The Smart Way to Fund LTC</h2>
+            <p className="text-gray-600 text-lg">A specialized, turn-key solution designed for those currently receiving, or imminently requiring, Long-Term Care services.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-brand-surface p-8 rounded-xl border border-gray-100 hover:shadow-corporate transition-all duration-300">
               <AlertTriangle className="h-10 w-10 text-brand-accent mb-6" />
-              <h3 className="font-heading font-bold text-xl mb-3">The Cost Crisis</h3>
+              <h3 className="font-heading font-bold text-xl mb-3">The LTC Cost Crisis</h3>
               <p className="text-gray-600 text-sm mb-6">Families are rapidly depleting lifetimes of savings to cover an average cost of $111,000 per year. Discover how quickly traditional assets run dry.</p>
               <Link to="/cost-journey" className="text-brand-dark font-semibold text-sm hover:text-brand-accent flex items-center">Read the Math <ChevronRight className="h-4 w-4 ml-1" /></Link>
             </div>
@@ -97,26 +98,26 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="font-heading text-sm font-bold tracking-widest text-brand-accent uppercase mb-3">The Financial Reality</h2>
-            <h3 className="font-heading text-3xl md:text-4xl font-bold text-brand-dark mb-6">The True Trajectory of Self-Funding</h3>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">Without a guaranteed plan, families who pay out-of-pocket undergo a predictable and devastating unwinding of their wealth.</p>
+            <h3 className="font-heading text-3xl md:text-4xl font-bold text-brand-dark mb-6">The Journey of Self-Funding LTC</h3>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">Without a guaranteed plan, families who pay out-of-pocket undergo an unwinding of their wealth.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 relative z-10">
             <div className="hidden md:block absolute top-[45%] left-10 right-10 h-0.5 bg-brand-accent/20 -z-10"></div>
             {/* Cards 1-3 */}
             <div className="bg-white rounded-3xl p-8 border border-gray-100 shadow-lg text-center relative group hover:-translate-y-2 transition-transform duration-300">
               <div className="w-16 h-16 bg-brand-surface rounded-full flex items-center justify-center mx-auto mb-6 border-4 border-white shadow-sm text-brand-dark font-heading font-bold text-2xl group-hover:bg-brand-dark group-hover:text-brand-accent transition-colors">1</div>
-              <h4 className="font-heading font-bold text-xl text-brand-dark mb-3">The Initial Gap</h4>
+              <h4 className="font-heading font-bold text-xl text-brand-dark mb-3">The Care-Cost Gap</h4>
               <p className="text-gray-600 text-sm leading-relaxed">The journey begins when monthly facility <strong className="text-brand-accent">costs vastly exceed a loved one's fixed income</strong>, forcing families to start withdrawing thousands from savings every month.</p>
             </div>
             <div className="bg-white rounded-3xl p-8 border border-gray-100 shadow-lg text-center relative group hover:-translate-y-2 transition-transform duration-300">
               <div className="w-16 h-16 bg-brand-surface rounded-full flex items-center justify-center mx-auto mb-6 border-4 border-white shadow-sm text-brand-dark font-heading font-bold text-2xl group-hover:bg-brand-dark group-hover:text-brand-accent transition-colors">2</div>
               <h4 className="font-heading font-bold text-xl text-brand-dark mb-3">The Cost Multipliers</h4>
-              <p className="text-gray-600 text-sm leading-relaxed">The drain rapidly accelerates over time due to two silent factors: <strong className="text-brand-accent">relentless medical inflation</strong> along with <strong className="text-brand-accent">needs-based price increases</strong> as health progressively declines.</p>
+              <p className="text-gray-600 text-sm leading-relaxed">The drain rapidly accelerates over time due to two silent factors: <strong className="text-brand-accent">medical inflation</strong> along with <strong className="text-brand-accent">needs-based price increases</strong> as health progressively declines.</p>
             </div>
             <div className="bg-white rounded-3xl p-8 border border-red-50 shadow-lg text-center relative group hover:-translate-y-2 transition-transform duration-300">
               <div className="w-16 h-16 bg-red-50 rounded-full flex items-center justify-center mx-auto mb-6 border-4 border-white shadow-sm text-red-500 font-heading font-bold text-2xl group-hover:bg-red-500 group-hover:text-white transition-colors">3</div>
               <h4 className="font-heading font-bold text-xl text-brand-dark mb-3">The Breaking Point</h4>
-              <p className="text-gray-600 text-sm leading-relaxed">Eventually, assets run critically low. This either <strong className="text-brand-accent">wipes out the family legacy</strong> entirely, or <strong className="text-brand-accent">forces an eviction</strong> from their preferred situation.</p>
+              <p className="text-gray-600 text-sm leading-relaxed">Often, assets run critically low. This either <strong className="text-brand-accent">wipes out the family legacy</strong>, or <strong className="text-brand-accent">forces an eviction</strong> from their preferred situation.</p>
             </div>
           </div>
           <div className="mt-12 text-center">
